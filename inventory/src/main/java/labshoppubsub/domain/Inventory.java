@@ -32,13 +32,12 @@ public class Inventory {
     public static void decreaseStock(OrderPlaced orderPlaced) {
         //implement business logic here:
 
-        /** Example 1:  new item 
+       
         Inventory inventory = new Inventory();
         repository().save(inventory);
 
-        */
+        
 
-        /** Example 2:  finding and process
         
 
         repository().findById(orderPlaced.get???()).ifPresent(inventory->{
@@ -48,10 +47,10 @@ public class Inventory {
 
 
          });
-        */
+        
 
     }
-    //>>> Clean Arch / Port Method
+   
 
 }
 //>>> DDD / Aggregate Root
